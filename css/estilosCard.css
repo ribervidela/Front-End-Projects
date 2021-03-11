@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+    background-color:#59a9e6 ;
+}
+.ball__top{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: -300px;
+    top: -500px;
+}
+.ball__bottom{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: -600px;
+    bottom:-600px ;
+}
+.main{
+    display: flex;
+    position: relative;
+   justify-content: center;
+   vertical-align: center;
+}
+.card{
+    height: 500px;
+    width: 500px;;
+}
