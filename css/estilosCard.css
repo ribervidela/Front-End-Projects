@@ -32,7 +32,7 @@ body{
 }
 
 .card{
-    height: 50vh;
+    height: 70vh;
     width: 50vh;
     box-shadow: 25px 25px 25px rgba(0, 0, 0, 0.2);
     border-radius: 25px;
@@ -78,6 +78,7 @@ hr{
 span{
     color: hsl(0, 0%, 59%);
     font-weight: 400;
+    
 }
 h2{
     font-weight: 700;
