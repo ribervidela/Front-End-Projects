@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
 
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 body{
     height: 100vh;
@@ -22,6 +17,7 @@ body{
     height: 100%;
     left: -300px;
     top: -500px;
+    overflow: hidden;
 }
 .ball__bottom{
     position: absolute;
@@ -29,6 +25,7 @@ body{
     height: 100%;
     right: -600px;
     bottom:-600px ;
+    overflow: hidden;
 }
 
 .card{
@@ -38,7 +35,7 @@ body{
     border-radius: 25px;
     background: white;
     margin: auto;
-    z-index: 1;
+
 }
 
 .card__bg{
@@ -55,7 +52,6 @@ body{
     margin: 0;
     padding: 0;
     height: 120px;
-    width: 120x;
     object-fit: cover;
     border:5px solid white;
     left:calc(50% - 60px);
@@ -88,27 +84,36 @@ h2{
 }
 @media screen and (max-width:375px){
     body{
-        height: 80vh;
-        width: 100vw;
+        height: 100%;
+        width: 100%;
         background-color:hsl(185, 75%, 39%);
         display: flex;
-        overflow: hidden;
         justify-content: center;
         font-family: 'Kumbh Sans', sans-serif;
-        padding: 0;
-       
+
     }
+ /*   
+body{
+    height: 100vh;
+    background-color:hsl(185, 75%, 39%);
+  display: flex;
+    overflow: hidden;
+    justify-content: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    padding: 0;
+}
+*/
     .card{
         overflow: hidden;
-      height: 500px;
-      width: 300px;
+      height: 30em;
+      width: 70%;
         box-shadow: 25px 25px 15px rgba(0, 0, 0, 0.2);
         border-radius: 25px;
         background: rgb(255, 255, 255);
-        position: absolute;
-        left: calc(50vw - 150px);
-        top: calc(50vh - 250px);
-
+        text-align: center;
+        margin: 15% 0%;
+     
+ 
    
     }
     
